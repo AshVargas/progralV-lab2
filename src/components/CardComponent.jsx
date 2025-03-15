@@ -1,5 +1,5 @@
-import React from 'react'
-import useCounter from '../hooks/useCounter'
+import React from 'react';
+import useCounter from '../hooks/useCounter';
 
 function CardComponent() {
     const { count, IncreaseCount, DicreaseCount } = useCounter();
@@ -11,7 +11,7 @@ function CardComponent() {
             <button className='btn' onClick={DicreaseCount}>➖</button>
             {count === 6 && <p>Mi número favorito es el 6</p>}
         </div>
-    )
+    );
 }
 
-export default CardComponent
+export default CardComponent;
